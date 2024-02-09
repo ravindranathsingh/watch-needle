@@ -8,7 +8,14 @@ const Navbar = () => {
     <div className='navbar'>
         <div className='nav-menu'>
             <div className='nav-select'>
-                
+                <select id="language">
+                    <option value="value1">English</option>
+                    <option value="value2">Hindi</option>
+                </select>
+                <select id="currency">
+                    <option value="value1">$ USD</option>
+                    <option value="value2"> &#x20B9; Rupee</option>
+                </select>
             </div>
             <div className='nav-links'>
                 <Link to={'/myaccount'}> My Account </Link> <p>|</p> 
@@ -22,7 +29,7 @@ const Navbar = () => {
                 <button><SearchIcon /></button>                
             </div>
             <div className='title'>
-                <h1>WatchNeedle</h1>
+                <h1>WatchVista</h1>
             </div>
             <div className='nav-cart'>
                 <LocalMallOutlinedIcon />

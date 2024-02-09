@@ -1,0 +1,43 @@
+$primary: #000000;
+$secondary: darkgray;
+
+.footer {
+    background-color: $primary;
+    hr {
+        margin: 0 10px;
+    }
+    .footer-menu {
+        display: flex;
+        a, p {
+            color: $secondary;
+            margin: 3px 20px;
+            text-decoration: none;
+            padding: 15px 10px;     
+        }
+    }
+    .footer-content {
+        color: $secondary;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: start;
+        margin: 5px 20px;
+        padding: 40px 0;        
+        div {
+            display: flex;
+            flex-direction: column;
+            a {
+                color: $secondary;
+                text-decoration: none;
+                padding: 7px;
+            }
+            p, h4 {
+                padding: 7px;
+            }
+        }
+    }
+    .footer-copyright {
+        color: $secondary;
+        margin: 5px 20px 0 20px;
+        padding: 5px 0;
+    }
+}
