@@ -37,14 +37,14 @@ const Footer = () => {
                 <h2>Store Information</h2>
                 <h4>My Company</h4>
                 <p>1-83 somenagar Hyderabad Telangana</p>
-                <h4>Call us now: +91-9278653263</h4>
+                <h4>Call us now: +91-9876543210</h4>
                 <h4>Email: support@watchvista.com</h4>
             </div>
         </div> <hr />
         <div className='footer-copyright'>
             <div>
                 <p>Store Copy Rights.</p>
-                <p>&copy; Ravi. | All Rights Reserved.</p>
+                <p>&copy; <p id='name'>Ravi.</p> | All Rights Reserved.</p>
             </div>
         </div>
     </div>

@@ -13,8 +13,8 @@ const Navbar = () => {
                     <option value="value2">Hindi</option>
                 </select>
                 <select id="currency">
-                    <option value="value1">$ USD</option>
-                    <option value="value2"> &#x20B9; Rupee</option>
+                    <option value="value1">USD $</option>
+                    <option value="value2">Rupees &#x20B9;</option>
                 </select>
             </div>
             <div className='nav-links'>

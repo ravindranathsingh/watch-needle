@@ -1,5 +1,7 @@
 $primary: #000000;
 $secondary: darkgray;
+$secondary1: #499e46;
+$secondary2: #fff;
 
 .footer {
     background-color: $primary;
@@ -14,6 +16,9 @@ $secondary: darkgray;
             text-decoration: none;
             padding: 15px 10px;     
         }
+        a:hover {
+            color: $secondary1;
+        }
     }
     .footer-content {
         color: $secondary;
@@ -23,21 +28,39 @@ $secondary: darkgray;
         margin: 5px 20px;
         padding: 40px 0;        
         div {
+            width: 280px;
+            height: 170px;
             display: flex;
             flex-direction: column;
+            border-right: solid $secondary 1px;
             a {
                 color: $secondary;
                 text-decoration: none;
                 padding: 7px;
             }
-            p, h4 {
-                padding: 7px;
+            a:hover{
+                transition: ease 0.5s;
+                margin-left: 20px;
+                color: $secondary1;
             }
+            p, h4 {
+                padding: 7px 0;
+            }
+            h2 {
+                color: $secondary2;
+            }
+        }
+        div:nth-last-child(1) {
+            border: none;
         }
     }
     .footer-copyright {
         color: $secondary;
         margin: 5px 20px 0 20px;
         padding: 5px 0;
+        #name {
+            color: $secondary1;
+            display: inline;
+        }
     }
 }
