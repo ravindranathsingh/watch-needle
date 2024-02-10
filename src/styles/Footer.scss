@@ -1,6 +1,6 @@
 $primary: #000000;
-$secondary: darkgray;
-$secondary1: #499e46;
+$secondary: #B4B4B8;
+$secondary1: #7F27FF;
 $secondary2: #fff;
 
 .footer {
@@ -39,11 +39,12 @@ $secondary2: #fff;
                 padding: 7px;
             }
             a:hover{
-                transition: ease 0.5s;
+                transition: ease 0.3s;
                 margin-left: 20px;
                 color: $secondary1;
             }
             p, h4 {
+                font-size: 0.8rem;
                 padding: 7px 0;
             }
             h2 {

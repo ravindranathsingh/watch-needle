@@ -1,7 +1,7 @@
-$primary: #499e46;
+$primary: #7F27FF;
 $seconday: #fff;
 $secondary2 : #092635;
-$secondary3 : darkgray;
+$secondary3 : #B4B4B8;
 
 .navbar {
     display: flex;
@@ -52,8 +52,8 @@ $secondary3 : darkgray;
     }
     .nav-title {
         background-image: url('../asset/abstract-background.avif');
-        background-repeat: repeat;
-        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 25vh;
         display: flex;
         justify-content: space-between;
@@ -81,23 +81,27 @@ $secondary3 : darkgray;
                 cursor: pointer;
             }
             svg {
+                padding: 8px 0;
                 color: $seconday;
             }
         }
-        .title {
+        .title {            
             display: flex;
             justify-content: flex-start;
             align-content: center;
-            font-style: italic;
             font-size: 700;
+            h1 {
+                font-family: 'Merriweather', serif;
+                color: $primary;
+            }
         }
         .nav-cart {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             :nth-child(1) {
-                width: 70px;
-                height: 70px;
+                width: 65px;
+                height: 65px;
                 position: relative;
                 color: $secondary3;
             }
@@ -105,11 +109,11 @@ $secondary3 : darkgray;
                 background-color: $primary;
                 border-radius: 50%;
                 font-size: 1.1rem;
-                padding: 10px 12px;
+                padding: 6px 12px;
                 text-align: center;
                 position: absolute;
-                right: 10%;
-                top: 20%;
+                right: 11%;
+                top: 15%;
                 color: $seconday;
             }
             :nth-last-child(1) {
