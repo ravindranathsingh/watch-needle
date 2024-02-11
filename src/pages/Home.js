@@ -1,6 +1,6 @@
 import Slide from '../components/Slide'
-import slide1 from "../asset/slide1.jpg"
-import slide2 from "../asset/slide2.jpg"
+import slide1 from "../asset/slide1.png"
+import slide2 from "../asset/slide2.png"
 
 const Home = () => {
 
@@ -11,9 +11,13 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <div className='sildes'>
-        <Slide  slide={Slides}/>
+
+      <div className='slides'>
+        <div>
+          <Slide  slide={Slides}/>
+        </div>
       </div>
+      
     </div>
   )
 }

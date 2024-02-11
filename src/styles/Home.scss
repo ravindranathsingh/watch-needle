@@ -1,13 +1,31 @@
+$primary: #fff;
+
 .slides {
+    width: 100%;
+    position: relative;
     div {
         width: 100%;
-        display: flex;
-        img {
-            aspect-ratio: 4/2;
+        display: flex; 
+        .carousel {
             width: 100%;
-            height: 400px;
+            height: 400px; 
             object-fit: contain;
-            
+            background-color: #7F27FF;
+        }
+        .carousel-hidden {
+            display: none;
+        }
+        .arrow {
+            position: absolute;
+            cursor: pointer;
+            color: $primary;
+            top: 50%;
+        }
+        .left-arrow {
+            left: 0%;
+        }
+        .right-arrow {
+            right: 0%;
         }
     }
 }
