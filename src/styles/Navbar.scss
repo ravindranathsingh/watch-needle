@@ -72,6 +72,9 @@ $secondary3 : #B4B4B8;
                 border: none;
                 color: $secondary3;
             }
+            :focus-visible {
+                outline: solid $primary 0.5px;
+            }
             button {
                 width: 40px;
                 height: 40px;
