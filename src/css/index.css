@@ -216,33 +216,3 @@
   color: #7F27FF;
   display: inline;
 }
-
-.slides {
-  width: 100%;
-  position: relative;
-}
-.slides div {
-  width: 100%;
-  display: flex;
-}
-.slides div .carousel {
-  width: 100%;
-  height: 400px;
-  object-fit: contain;
-  background-color: #7F27FF;
-}
-.slides div .carousel-hidden {
-  display: none;
-}
-.slides div .arrow {
-  position: absolute;
-  cursor: pointer;
-  color: #fff;
-  top: 50%;
-}
-.slides div .left-arrow {
-  left: 0%;
-}
-.slides div .right-arrow {
-  right: 0%;
-}
